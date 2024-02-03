@@ -1,0 +1,103 @@
+/*---BLog Banner Section Start---*/
+.blog-banner {
+  width: 100%;
+  height: 620px;
+  margin: 8px auto;
+}
+
+.blog-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*---BLog Banner Section End---*/
+
+/*---Latest Blog Section Start---*/
+.latest-blog {
+  width: 94%;
+  height: 520px;
+  margin: 8px auto;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.latest-blog h1 {
+  font-weight: 600;
+}
+
+.latest-blog .blog-title {
+  text-align: center;
+  color: #8b0000;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.latest-blog .blogs-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 410px;
+}
+
+.latest-blog .blogs-items .blog-item {
+  width: 28%;
+  text-align: center;
+}
+
+.latest-blog .blogs-items .blog-item img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+}
+
+.latest-blog .blogs-items .blog-item p {
+  color: #8b0000;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 4px auto;
+}
+/*---Latest Blog Section End---*/
+
+/*---Blog Details Section Start---*/
+.blog-details {
+  width: 100%;
+  margin: 12px auto;
+  height: 460px;
+  display: flex;
+}
+
+.blog-details .img-container {
+  width: 60%;
+  height: 100%;
+}
+
+.blog-details .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-details .desc-container {
+  width: 40%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 0 12px;
+}
+
+.blog-details .desc-container p {
+  width: 80%;
+  margin: 32px auto;
+  line-height: 28px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.blog-details .desc-container h2 {
+  width: 80%;
+  margin: 32px auto;
+  line-height: 28px;
+  text-align: justify;
+  font-family: "Nunito Sans", sans-serif;
+}
+/*---Blog Details Section End---*/

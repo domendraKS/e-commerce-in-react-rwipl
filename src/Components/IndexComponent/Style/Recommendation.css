@@ -1,0 +1,174 @@
+/* ---Recommandation Section Start--- */
+.recommendation-you {
+  height: 600px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.recommendation-you .recommendationYou-heading h1 {
+  text-align: center;
+  font-size: 34px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #8b0000;
+  padding: 2px 0;
+}
+
+.recommendation-you .recommendationYou-heading p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #716c6c;
+  padding: 2px 0;
+  text-shadow: 1px 2px 3px#00000040;
+}
+
+.recommendation-you .recommendationYou-heading img {
+  margin-top: -26px;
+}
+
+.recommendation-you .recommendation-image-container {
+  width: 100%;
+  height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin: 8px auto;
+  margin-top: -22px;
+  background-color: #832729;
+}
+
+.recommendation-you .recommendation-image-container .image-item-1 {
+  width: 40%;
+  height: 82%;
+}
+
+.recommendation-you .recommendation-image-container .image-item-1 a img {
+  width: 100%;
+  height: 100%;
+}
+
+.recommendation-you .recommendation-image-container .image-item-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.recommendation-you .recommendation-image-container .image-item-2 {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.recommendation-you .recommendation-image-container .image-item-2 a {
+  width: 70%;
+  height: 49%;
+}
+
+.recommendation-you .recommendation-image-container .image-item-2 a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media only screen and (min-width: 1440px) {
+  .recommendation-you {
+    height: 620px;
+  }
+
+  .recommendation-you .recommendationYou-heading img {
+    margin-top: -38px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .recommendation-you {
+    height: 610px;
+  }
+
+  .recommendation-you .recommendationYou-heading img {
+    margin-top: -36px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .recommendation-you {
+    height: 590px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .recommendation-you {
+    height: 570px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .recommendation-you {
+    height: 560px;
+  }
+
+  .recommendation-you .recommendationYou-heading h1 {
+    font-size: 32px;
+  }
+
+  .recommendation-you .recommendationYou-heading img {
+    margin-top: -18px;
+  }
+
+  .recommendation-you .recommendation-image-container {
+    margin-top: -16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .recommendation-you {
+    height: 320px;
+  }
+
+  .recommendation-you .recommendationYou-heading h1 {
+    font-size: 26px;
+  }
+
+  .recommendation-you .recommendationYou-heading img {
+    margin-top: -12px;
+  }
+
+  /* For mobile view */
+  .recommendation-slider-container {
+    width: 94%;
+    height: 240px;
+    margin: -4px auto 4px;
+  }
+
+  .recommendation-slider-container .swiper-pagination-bullet {
+    opacity: 1;
+    background: #ffffff;
+  }
+
+  .recommendation-slider-container .swiper-pagination-bullet-active {
+    background-color: #8b0000;
+  }
+
+  .recommendation-slider-container img {
+    width: 100%;
+    height: 230px;
+    transition: 1s;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px #d27f7f;
+  }
+}
+/* ---Recommandation Section End--- */

@@ -1,0 +1,87 @@
+/*---Gift Section Start---*/
+.giftLink .gift-container {
+  width: 96%;
+  height: 260px;
+  margin: 12px auto;
+  background-image: url(http://localhost:3000/Images/gift.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  text-align: center;
+  line-height: 260px;
+}
+
+.giftLink {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .gift-container {
+    width: 92%;
+    color: #8b0000;
+    text-align: center;
+    line-height: 430px;
+    font-size: 40px;
+    border-radius: 8px;
+  }
+}
+/*---Gift Section End---*/
+
+/*---Video Carousel Section Start---*/
+.videoCarousel {
+  width: 92%;
+  height: 360px;
+  margin: 8px auto;
+}
+
+.videoCarousel video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .videoCarousel {
+    width: 96%;
+    height: 220px;
+    margin: 8px auto;
+  }
+}
+/* ---Video Carousel Section End--- */
+
+/* Scroll button Start */
+.scroll-btn {
+  display: none;
+  height: 36px;
+  width: 100%;
+  margin: 8px auto;
+  text-align: center;
+}
+
+.scroll-btn button {
+  width: 40%;
+  padding: 8px 4px;
+  color: #ffffff;
+  background-color: #d27f7f;
+  border: none;
+  border-radius: 18px;
+  font-weight: 600;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 480px) {
+  .scroll-btn {
+    display: block;
+  }
+}
+/* Scroll button End */

@@ -1,0 +1,108 @@
+/* <!----Crystal Category Section Start----> */
+.categories-name {
+  width: 14%;
+  /* height: 100%; */
+  background-color: #ffffff;
+  padding: 0 18px;
+}
+
+.categories-name .category-heading {
+  margin: 4px auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.categories-name ul {
+  list-style-type: none;
+  margin: 16px 0;
+  cursor: default;
+}
+
+.categories-name ul h3 {
+  margin: 2px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.categories-name ul li {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.category-details {
+  height: 100%;
+  width: 85%;
+}
+
+.category-details .details-heading {
+  width: 94%;
+  height: 34px;
+  line-height: 34px;
+  margin: 12px auto;
+  padding: 8px 0;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.category-details .crystal-divide {
+  margin: 22px 30px;
+}
+
+.category-details .crystal-divide .crystal-items {
+  margin: 8px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.category-details .crystal-divide .crystal-items .item-details {
+  width: 25%;
+  height: 300px;
+  margin: 8px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.category-details .crystal-divide .crystal-items .item-details img {
+  width: 98%;
+  height: 75%;
+  object-fit: cover;
+  border: 1px solid #000000;
+}
+
+.category-details .crystal-divide .crystal-items .item-details p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 2px auto;
+}
+
+.category-details .crystal-divide .crystal-items .item-details .price-discount {
+  background-color: #d9d9d9;
+  padding: 2px 0;
+}
+
+.category-details
+  .crystal-divide
+  .crystal-items
+  .item-details
+  .price-discount
+  .price {
+  font-size: 16px;
+}
+
+.category-details
+  .crystal-divide
+  .crystal-items
+  .item-details
+  .price-discount
+  .discount {
+  font-size: 12px;
+}
+/* <!----Crystal Category Section End----> */

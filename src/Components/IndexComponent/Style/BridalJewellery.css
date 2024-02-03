@@ -1,0 +1,235 @@
+/*---Bridal Jewellery Section Start---*/
+.bridal-jewellery {
+  height: 530px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.bridal-jewellery .bridalJewellery-heading h1 {
+  text-align: center;
+  font-size: 34px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #8b0000;
+  padding: 2px 0;
+}
+
+.bridal-jewellery .bridalJewellery-heading p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #716c6c;
+  padding: 2px 0;
+  text-shadow: 1px 2px 3px#00000040;
+}
+
+.bridal-jewellery .bridalJewellery-heading img {
+  margin-top: -26px;
+}
+
+.bridal-jewellery .bridalJewellery-items-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 390px;
+  background: linear-gradient(to bottom, #fed7ba 40%, #ccc6c6cc 40%);
+  margin-top: -40px;
+}
+
+.bridal-jewellery .bridalJewellery-items-container .bridalJewellery-item {
+  height: 380px;
+  width: 65%;
+}
+
+.bridal-jewellery .bridalJewellery-items-container .bridalJewellery-item a {
+  text-decoration: none;
+}
+
+.bridal-jewellery
+  .bridalJewellery-items-container
+  .bridalJewellery-item
+  .item-img {
+  background-color: #84292b;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bridal-jewellery
+  .bridalJewellery-items-container
+  .bridalJewellery-item
+  .item-img
+  img {
+  width: 86%;
+  height: 94%;
+  object-fit: contain;
+}
+
+.bridal-jewellery .bridalJewellery-items-container .bridalJewellery-item p {
+  text-align: center;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 4px 0;
+}
+
+/* for mobile view only */
+.bgColor-phone {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.mobile-bridalJewellery-container {
+  justify-items: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  height: 320px;
+  width: 99%;
+  margin: 0 auto;
+}
+
+.mobile-bridalJewellery-container .swiper-button-next,
+.mobile-bridalJewellery-container .swiper-button-prev {
+  background-color: #00000084;
+  color: white;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+.mobile-bridalJewellery-container .swiper-button-next::after,
+.mobile-bridalJewellery-container .swiper-button-prev::after {
+  font-size: 16px;
+}
+
+.mobile-bridalJewellery-container .mobile-itme-img {
+  background-color: #832729;
+  width: 90%;
+  margin: 8px auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.mobile-bridalJewellery-container .mobile-itme-img a {
+  background-color: #832729;
+  width: 94%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.mobile-bridalJewellery-container .mobile-itme-img a img {
+  height: 96%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.bgColor-phone i {
+  position: absolute;
+  top: 50%;
+  background-color: #000000a6;
+  color: #ffffff;
+  padding: 2px;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media only screen and (min-width: 1440px) {
+  .bridal-jewellery .bridalJewellery-items-container .bridalJewellery-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .bridal-jewellery {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bridal-jewellery {
+    height: 490px;
+  }
+
+  .bridal-jewellery .bridalJewellery-items-container {
+    margin-top: -30px;
+  }
+
+  .bridal-jewellery .bridalJewellery-items-container .bridalJewellery-item {
+    cursor: pointer;
+    height: 370px;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .bridal-jewellery {
+    height: 380px;
+    margin: 8px 0;
+  }
+
+  .bridal-jewellery .bridalJewellery-heading h1 {
+    font-size: 30px;
+  }
+
+  .bridal-jewellery .bridalJewellery-heading p {
+    font-size: 14px;
+  }
+
+  .bridal-jewellery .bridalJewellery-heading img {
+    margin-top: -22px;
+  }
+
+  .bridal-jewellery .bridalJewellery-items-container {
+    height: 280px;
+    margin-top: -18px;
+  }
+
+  .bridal-jewellery .bridalJewellery-items-container .bridalJewellery-item {
+    height: 280px;
+    width: 75%;
+  }
+
+  .bridal-jewellery
+    .bridalJewellery-items-container
+    .bridalJewellery-item
+    .item-img {
+    height: 88%;
+  }
+
+  .bridal-jewellery .bridalJewellery-items-container .bridalJewellery-item p {
+    padding: 2px 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .bridal-jewellery {
+    height: 420px;
+    margin: 8px 0;
+  }
+
+  .bridal-jewellery .bridalJewellery-heading h1 {
+    font-size: 28px;
+  }
+
+  .bridal-jewellery .bridalJewellery-heading p {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .bridal-jewellery .bridalJewellery-heading img {
+    margin-top: -8px;
+  }
+}
+/*---Bridal Jewellery Section End---*/

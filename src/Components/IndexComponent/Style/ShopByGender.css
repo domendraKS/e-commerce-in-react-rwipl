@@ -1,0 +1,177 @@
+/*---Shop by Gender Section Start---*/
+.shop-gender {
+  height: 520px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.shop-gender .shopGender-heading h1 {
+  text-align: center;
+  font-size: 34px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #8b0000;
+  padding: 2px 0;
+}
+
+.shop-gender .shopGender-heading p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #716c6c;
+  padding: 2px 0;
+  text-shadow: 1px 2px 3px#00000040;
+}
+
+.shop-gender .shopGender-heading img {
+  margin-top: -26px;
+}
+
+.shop-gender .shopGender-item-container {
+  height: 320px;
+  width: 100%;
+  margin-top: -12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shop-gender .shopGender-item-container .shopGender-item {
+  background-color: #d9d9d9;
+  width: 25%;
+  height: 100%;
+}
+
+.shop-gender .shopGender-item-container .shopGender-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.shop-gender .shopGender-item-container .shopGender-item img {
+  width: 100%;
+  height: 92%;
+  object-fit: cover;
+}
+
+.shop-gender .shopGender-item-container .shopGender-item p {
+  text-align: center;
+  font-weight: 700;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.shop-gender .swiper-pagination-bullet {
+  opacity: 1;
+  background: #ffffff;
+}
+
+.shop-gender .swiper-pagination-bullet-active {
+  background-color: #8b0000;
+}
+
+/* Responsive */
+@media only screen and (min-width: 1440px) {
+  .shop-gender {
+    height: 520px;
+  }
+
+  .shop-gender .shopGender-heading img {
+    margin-top: -40px;
+  }
+
+  .shop-gender .shopGender-item-container {
+    height: 366px;
+    margin-top: -32px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .shop-gender {
+    height: 520px;
+  }
+
+  .shop-gender .shopGender-heading img {
+    margin-top: -42px;
+  }
+
+  .shop-gender .shopGender-item-container {
+    height: 390px;
+    margin-top: -32px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .shop-gender .shopGender-item-container {
+    height: 390px;
+    margin-top: -26px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .shop-gender {
+    height: 440px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .shop-gender {
+    height: 420px;
+  }
+
+  .shop-gender .shopGender-heading h1 {
+    font-size: 30px;
+  }
+
+  .shop-gender .shopGender-heading img {
+    margin-top: -20px;
+  }
+
+  .shop-gender .shopGender-item-container {
+    height: 320px;
+    margin-top: -12px;
+  }
+
+  .shop-gender .shopGender-item-container .shopGender-item {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .shop-gender {
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shop-gender .shopGender-heading h1 {
+    font-size: 26px;
+  }
+
+  .shop-gender .shopGender-heading p {
+    font-size: 12px;
+  }
+
+  .shop-gender .shopGender-heading img {
+    margin-top: -8px;
+  }
+
+  .shop-gender .shopGender-item-container {
+    height: 340px;
+    margin: -10px auto 0;
+    width: 90%;
+  }
+
+  .shopGender-item {
+    width: 94%;
+    height: 340px;
+    margin: 0 auto;
+    transition: 1s;
+  }
+
+  .shopGender-item a img {
+    width: 100%;
+    height: 92%;
+    box-shadow: 0px 4px 8px #8b0000;
+    object-fit: cover;
+  }
+}
+/*---Shop by Gender Section End---*/

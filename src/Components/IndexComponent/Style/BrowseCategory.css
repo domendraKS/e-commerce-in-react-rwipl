@@ -1,0 +1,244 @@
+/*---Browse by category section start---*/
+.browse-category {
+  width: 100%;
+  height: 440px;
+  margin: 20px 0 16px;
+}
+
+.browse-category h1 {
+  text-align: center;
+  font-size: 34px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #8b0000;
+  padding: 2px 0;
+}
+
+.browse-category p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #716c6c;
+  padding: 2px 0;
+  text-shadow: 1px 2px 3px#00000040;
+}
+
+.browse-category img {
+  width: 100%;
+  margin-top: -24px;
+}
+
+.browse-category .browse-category-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  margin-top: -24px;
+}
+
+.browse-category .browse-category-container .category-items {
+  width: 50%;
+}
+
+.browse-category .browse-category-container .category-items h3 {
+  text-align: center;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  padding: 6px;
+}
+
+.browse-category
+  .browse-category-container
+  .category-items
+  .category-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  width: 94%;
+  height: 80%;
+  padding: 12px;
+}
+
+.browse-category
+  .browse-category-container
+  .category-items
+  .category-item-container
+  .category-image
+  a {
+  text-decoration: none;
+}
+
+.browse-category
+  .browse-category-container
+  .category-items
+  .category-item-container
+  .category-image
+  img {
+  width: 170px;
+  height: 170px;
+  box-shadow: 8px 8px 2px #fed7ba;
+  margin-top: 0;
+}
+
+.browse-category
+  .browse-category-container
+  .category-items
+  .category-item-container
+  .category-image
+  p {
+  color: #1e1e1e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-shadow: none;
+  padding: 8px 0;
+}
+
+.browse-category .browse-category-img {
+  display: none;
+  height: 70%;
+}
+
+.browse-category .browse-category-img .category-container {
+  cursor: pointer;
+  padding: 4px;
+}
+
+.browse-category .browse-category-img .category-container img {
+  height: 120px;
+  width: 120px;
+  box-shadow: 6px 6px 4px #8b0000;
+}
+
+.browse-category .browse-category-img .category-container p {
+  color: #8b0000;
+  box-shadow: none;
+  padding: 4px 0;
+}
+
+/* Responsive */
+@media only screen and (min-width: 1440px) {
+  .browse-category
+    .browse-category-container
+    .category-items
+    .category-item-container {
+    gap: 80px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1460px) {
+  .browse-category
+    .browse-category-container
+    .category-items
+    .category-item-container {
+    gap: 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .browse-category {
+    height: 420px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .browse-category {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .browse-category {
+    height: 350px;
+    margin: 20px 0 16px;
+  }
+
+  .browse-category h1 {
+    font-size: 32px;
+    padding: 2px 0;
+  }
+
+  .browse-category p {
+    font-size: 16px;
+    padding: 2px 0;
+  }
+
+  .browse-category img {
+    margin-top: -16px;
+  }
+
+  .browse-category .browse-category-container {
+    height: 250px;
+    margin-top: -14px;
+  }
+
+  .browse-category .browse-category-container .category-items h3 {
+    font-size: 24px;
+    padding: 4px;
+  }
+
+  .browse-category
+    .browse-category-container
+    .category-items
+    .category-item-container {
+    gap: 30px;
+    width: 90%;
+    height: 70%;
+    padding: 8px;
+  }
+
+  .browse-category
+    .browse-category-container
+    .category-items
+    .category-item-container
+    .category-image
+    img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .browse-category
+    .browse-category-container
+    .category-items
+    .category-item-container
+    .category-image
+    p {
+    padding: 4px 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .browse-category {
+    height: 380px;
+    margin: 20px 0;
+  }
+
+  .browse-category .browse-category-container {
+    display: none;
+  }
+
+  .browse-category h1 {
+    font-size: 28px;
+    padding: 0;
+  }
+
+  .browse-category p {
+    font-size: 14px;
+  }
+
+  .browse-category img {
+    margin-top: -12px;
+  }
+
+  .browse-category .browse-category-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 12px;
+    align-items: center;
+    justify-items: center;
+  }
+}
+/*---Browse by category section end---*/

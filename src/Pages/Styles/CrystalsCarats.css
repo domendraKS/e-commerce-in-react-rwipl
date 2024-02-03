@@ -1,0 +1,49 @@
+/* <!----Crystal Heading Image Start----> */
+.crystal-top-img {
+  /* width: 100%; */
+  height: 450px;
+  margin: 8px 0 0;
+  border: 1px solid #000000;
+}
+
+.crystal-top-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* <!----Crystal Heading Image End----> */
+
+.crystal-categories {
+  width: 100%;
+  min-height: 820px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+}
+
+/* <!----Crystal Heading Image Start----> */
+.carat-top-img {
+  /* width: 100%; */
+  height: 450px;
+  margin: 8px 0 0;
+  border: 1px solid #000000;
+  position: relative;
+}
+
+.carat-top-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carat-top-img .some-lines {
+  width: 28%;
+  height: 120px;
+  background-color: #e0c4c4;
+  position: absolute;
+  bottom: 22px;
+  right: 10px;
+  font-size: 32px;
+  padding: 42px;
+  font-family: "Nunito Sans", sans-serif;
+}
+/* <!----Crystal Heading Image End----> */
