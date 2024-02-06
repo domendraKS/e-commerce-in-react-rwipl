@@ -639,6 +639,126 @@ const CrystalsCaratsAPI = [
     description:
       "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
   },
+  {
+    name: "Enchanting-1",
+    category: "Bridal Special",
+    type: "Enchanting",
+    image: "/Images/south-bride.jpg",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Enchanting-2",
+    category: "Bridal Special",
+    type: "Enchanting",
+    image: "/Images/b3.png",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Enchanting-3",
+    category: "Bridal Special",
+    type: "Enchanting",
+    image: "/Images/b4.webp",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Trendsetter-1",
+    category: "Bridal Special",
+    type: "Trendsetter",
+    image: "/Images/b5.jpg",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Trendsetter-2",
+    category: "Bridal Special",
+    type: "Trendsetter",
+    image: "/Images/b6.jpg",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Trendsetter-3",
+    category: "Bridal Special",
+    type: "Trendsetter",
+    image: "/Images/b7.jpg",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Dazzling-1",
+    category: "Bridal Special",
+    type: "Dazzling",
+    image: "/Images/b8.jpg",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Dazzling-2",
+    category: "Bridal Special",
+    type: "Dazzling",
+    image: "/Images/b9.webp",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Dazzling-3",
+    category: "Bridal Special",
+    type: "Dazzling",
+    image: "/Images/b11.png",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Elegant-1",
+    category: "Bridal Special",
+    type: "Elegant",
+    image: "/Images/b7.jpg",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Elegant-2",
+    category: "Bridal Special",
+    type: "Elegant",
+    image: "/Images/b13.jpg",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
+  {
+    name: "Elegant-3",
+    category: "Bridal Special",
+    type: "Elegant",
+    image: "/Images/b12.webp",
+    actualPrice: 465000,
+    offerPercent: 30,
+    description:
+      "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
+  },
 ];
 
 export default CrystalsCaratsAPI;

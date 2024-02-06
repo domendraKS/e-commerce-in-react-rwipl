@@ -5,6 +5,7 @@ import CrystalsItems from "../Components/Products/CrystalsItems";
 import CrystalsCaratsAPI from "../Dummy-Data/CrystalsCaratsAPI";
 import { useParams } from "react-router-dom";
 import Products from "../Components/Products/Products";
+import ExploreBridal from "./../Components/Products/ExploreBridal";
 
 const uniqueCategoriesAndTypes = Array.from(
   new Set(
@@ -79,6 +80,8 @@ const CrystalsCarats = () => {
         />
         {filterCategory === "Products" ? (
           <Products productsData={productsData} />
+        ) : filterCategory === "Bridal Special" ? (
+          <ExploreBridal productsData={productsData} />
         ) : (
           <CrystalsItems productsData={productsData} />
         )}

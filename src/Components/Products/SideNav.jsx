@@ -33,13 +33,6 @@ const SideNav = ({ uniqueCategoriesAndTypes, filterItems }) => {
           );
         })}
         <ul>
-          <h3>Bridal Special</h3>
-          <li>Enchanting</li>
-          <li>Trendsetter</li>
-          <li>Dazzling</li>
-          <li>Elegant</li>
-        </ul>
-        <ul>
           <h3>Occasional</h3>
           <li>Birthday</li>
           <li>Anniversary</li>
